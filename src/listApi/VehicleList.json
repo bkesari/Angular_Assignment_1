@@ -1,0 +1,45 @@
+{
+"Vehicles":[
+    {
+        "make": "AUDI",
+        "model": "A1",
+        "year":1990
+    },
+    {
+        "make": "HONDA",
+        "model": "Jazz",
+        "year":2017
+    },
+    {
+        "make": "SUZUKI",
+        "model": "Vitara",
+        "year":2001
+    },
+    {
+        "make": "SKODA",
+        "model": "Citigo",
+        "year":2005
+    },
+    {
+        "make": "FORD",
+        "model": "Fiesta",
+        "year":2000
+    },
+    {
+        "make": "VolkswagenPassengerCars",
+        "model": "Beetle",
+        "year":1930
+    },
+    {
+        "make": "TOYOTA",
+        "model": "Verso",
+        "year":1970
+    },    
+    {
+        "make": "RENAULT",
+        "model": "Twingo",
+        "year":2003
+    }
+    
+]
+}

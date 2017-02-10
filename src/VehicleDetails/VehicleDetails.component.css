@@ -1,0 +1,18 @@
+.form-group {
+  background:lightgrey;
+  color:black;
+  position: fixed;  
+  top: 0;
+  right: 0;
+  bottom: -15px;
+  width: 20%;    
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.details  {
+ text-align: center;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 90;
+  padding-top: 3px;  
+}

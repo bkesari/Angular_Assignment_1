@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Vehicles</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+</head>
+<body>
+<div class="container" >  
+  <h1>
+  List of Vehicles
+</h1>        
+  <table class="table table-bordered " id="myTable">    
+      <tr>    
+        <th onclick="sortTable(0)">Make</th>
+        <th onclick="sortTable(1)">Model</th>        
+        <th onclick="sortTable(2)">Year</th>
+      </tr>          
+      <tr *ngFor="let list of Vehicles"  (click)="VehicleDetails(list)">
+      <td>{{list.make}}</td>
+      <td >{{list.model}}</td>
+      <td>{{list.year}}</td>         
+    </tr>
+    </table>       
+</div>
+<div *ngIf="detailsClicked==true">    
+   <app-modify-VehicleDetails [(editedVehicle)]="vehicle"></app-modify-VehicleDetails>
+</div> 
+</body>
+</html>
